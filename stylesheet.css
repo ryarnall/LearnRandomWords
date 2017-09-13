@@ -1,0 +1,49 @@
+#mainContainer {
+	margin: auto;
+	width: 800px;
+	height: 300px;
+	border: 1px solid black;
+}
+
+#theWord {
+	width: 30%;
+	height: 50px;	
+	border: 1px solid gray;
+	margin-left: 35%;
+	margin-top: 50px;
+	font-size: 25px;
+	line-height: 50px;
+	text-align: center;
+	display: inline-block;
+}
+
+#theDefinition {
+	width: 50%;
+	height: 150px;
+	font-size: 20px;
+	border: 1px solid green;
+	margin-left: 25%;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+#buttonDiv {
+	width: 400px;
+	height: 40px;
+	/*border: 1px solid gray;*/
+	margin: auto;
+	margin-top: 10px;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	display: inline-block;
+}
+
+#lengthOptions {
+	width: 100px;
+	font-size: 16px;
+}
+
