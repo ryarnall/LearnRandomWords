@@ -8,22 +8,32 @@
 
 	<body>
 		<div id="mainContainer">
-			<p id="theWord"></p>
-			<p id="theDefinition"></p>
+			<div class="column">
+				<form id="lengthOptions">
+					<p>Word Length</p>
+					<input type="radio" name="wordLength" id="shortWordButton">Short<br>
+					<input type="radio" name="wordLength" id="mediumWordButton">Medium<br>
+					<input type="radio" name="wordLength" id="longWordButton">Long
+				</form>	
+				<button id="newWordButton">New Word</button>
+			</div>
 
+			<div class="column">
+				<p id="theWord"></p>
+				<p id="theDefinition"></p>
+			</div>
 
-			<form id="lengthOptions">
-				<p>Word Length</p>
-				<input type="radio" name="wordLength" id="shortWordButton">Short<br>
-				<input type="radio" name="wordLength" id="mediumWordButton">Medium<br>
-				<input type="radio" name="wordLength" id="longWordButton">Long
-			</form>	
-				
-			<button id="newWordButton">New Word</button>
-
-
+			
 
 		</div>	
+
+<!-- 		<div id="test">
+			<div class="box">words!!!</div>
+			<div class="box"><button>click</button></div>
+			<div class="box"><input></div>
+			<div class="box"><img  id="cat" src="https://petcube.com/blog/content/images/2017/08/kitten-supplies-cover.jpg"></div>
+		</div> -->
+
 
 	<script src="jquery-3.2.1.min.js"></script>	
 	<script src="scripts.js"></script>
